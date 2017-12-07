@@ -27,5 +27,10 @@
       "psr-4": {
           "Romano83\\Akismet\\Tests\\": "tests"
       }
-  }
+  },
+    "support" : {
+        "email" : "contact@romain-guillemin.fr",
+        "source": "https://github.com/Romano83/akismet",
+        "issues": "https://github.com/Romano83/akismet/issues"
+    },
 }
