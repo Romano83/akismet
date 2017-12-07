@@ -80,7 +80,7 @@ If you want more details for each method, look at the internal documentation or 
 
 
 ## How to contribute
--- 
+
 * create a ticket in Github if you have found a bug.
 * create a new branch if you want to do a PR.
 * you **must** add testcases if needed
