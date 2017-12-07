@@ -1,10 +1,10 @@
 # Akismet PHP 7 library
-==
+
 
 A PSR-7 library to communicate with [Akismet](kttps://akismet.com) service to determine if a submitted comment to your website should be considered spam or not.
 
 ## Installation
---
+
 
 ### Requirements
 * PHP 7.1
@@ -20,7 +20,7 @@ Run : `composer require romano83/akismet` or in your composer.json file
 ```
 
 ## How to use it
---
+
 Before to use it, you need an [Akismet API key](https://akismet.com/). 
 Once you have one, in order to check if a comment is a spam:
 
