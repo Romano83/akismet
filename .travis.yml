@@ -1,0 +1,21 @@
+language: php
+
+php:
+  - 7.1
+  - 7.2
+
+matrix:
+  allow_failures:
+    - php: 7.2
+
+install:
+  - composer selfupdate
+  - composer install
+
+script:
+  - ./vendor/bin/phpcs -s
+  - ./vendor/bin/php-cs-fixer fix --diff --dry-run
+  - ./vendor/bin/phpunit --colors --coverage-text --coverage-clover build/logs/clover.xml
+
+after_success:
+  - travis_retry php vendor/bin/coveralls

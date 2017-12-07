@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ruleset name="Akismet">
+    <description>PSR-7 library to communicate with Akismet service to determine if a submitted comment to your website should be considered spam or not.</description>
+
+    <arg name="colors"/>
+    <arg value="p"/>
+
+    <file>src</file>
+    <file>tests</file>
+
+    <rule ref="PSR2"></rule>
+
+</ruleset>
