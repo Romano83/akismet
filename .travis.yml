@@ -14,7 +14,6 @@ install:
 
 script:
   - ./vendor/bin/phpcs -s
-  - ./vendor/bin/php-cs-fixer fix --diff --dry-run
   - ./vendor/bin/phpunit --colors --coverage-text --coverage-clover build/logs/clover.xml
 
 after_success:
