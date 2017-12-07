@@ -2,6 +2,8 @@
 
 A PSR-7 library to communicate with [Akismet](kttps://akismet.com) service to determine if a submitted comment to your website should be considered spam or not.
 
+[![Build Status](https://travis-ci.org/Romano83/akismet.svg?branch=master)](https://travis-ci.org/Romano83/akismet)
+
 ## Installation
 
 
