@@ -1,10 +1,10 @@
-# Akismet PHP 7 library
+# Akismet PHP 7 class
 
 [![Build Status](https://travis-ci.org/Romano83/akismet.svg?branch=master)](https://travis-ci.org/Romano83/akismet)
 [![Latest Stable Version](https://poser.pugx.org/romano83/akismet/v/stable)](https://packagist.org/packages/romano83/akismet)
 [![License](https://poser.pugx.org/romano83/akismet/license)](https://packagist.org/packages/romano83/akismet)
 
-A PHP-7 library to communicate with [Akismet](kttps://akismet.com) service to determine if a submitted comment to your website should be considered spam or not.
+A PHP-7 class to communicate with [Akismet](kttps://akismet.com) service to determine if a submitted comment to your website should be considered spam or not.
 
 ## Installation
 
@@ -86,4 +86,4 @@ If you want more details for each method, look at the internal documentation or 
 
 * create a ticket in Github if you have found a bug.
 * create a new branch if you want to do a PR.
-* you **must** add testcases if needed
+* you **must** add testcases
