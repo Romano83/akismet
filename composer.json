@@ -2,6 +2,12 @@
   "name": "romano83/akismet",
   "description": "PSR-7 library to communicate with Akismet service to determine if a submitted comment to your website should be considered spam or not.",
   "type": "library",
+  "keywords": [
+    "PHP 7",
+    "PHP",
+    "akismet",
+    "spam"
+  ],
   "license": "MIT",
   "minimum-stability": "stable",
   "require": {
